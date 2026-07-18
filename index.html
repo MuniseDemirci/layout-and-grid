@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout and grid</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!--COVERS THE SCREEN FULLY (%100)-->
+    <div class="container-fluid bg-warning">
+        <h1>Layout : </h1>
+        <h3>Covers the screen fully (%100)</h3>
+    </div>
+    
+    <!-- İF SCREEN>= 576px, it covers the screen by 540 px  -->
+     <div class="container bg-danger">
+        <h3>İF SCREEN>= 576px,</h3>
+        <h3>it covers the screen by 540 px</h3>
+     </div>
+
+     <!-- FOR MORE, you can go to the Bootstrap website and find it in the LAYOUT tab -->
+      <img src="page.jpg.png" alt="don't find" style="width: 1100px; height:auto;"> <br><br><br>
+
+
+    <!-- GRID SYSTEM -->
+    <div class="container-sm bg-warning"><h1>GRİD :</h1><h3>Divides the line by 12</h3></div><br><br>
+    <img src="p.1.jpeg" alt="" style="width: auto; height: 250px;"><BR></BR><br>
+    <p>EXAMPLE 1 :</p>
+    <div class="container">
+  <div class="row">
+    <div class="col-3 bg-primary text-white">
+      One of three columns(3)
+    </div>
+    <div class="col-3 bg-success text-white">
+      One of three columns(3)
+    </div>
+    <div class="col-6 bg-primary text-white">
+      One of three columns(6)
+    </div>
+  </div>
+</div><br><br>
+<p>EXCAMPLE 2:   More advantageous for the phone so (col-sm)</p>
+<div class="row">
+    <div class="col-sm bg-primary text-white">
+      One of three columns
+    </div>
+    <div class="col-sm bg-success text-white">
+      One of three columns
+    </div>
+    <div class="col-sm bg-primary text-white">
+      One of three columns
+    </div>
+  </div><br><br>
+  <p>EXCAMPLE 3:</p><br>
+<div class="container">
+    <div class="row bg-warning"  style="height: 150px;">
+      <div class="col-lg bg-primary text-white align-self-start">
+         (-start)
+      </div>
+    <div class="col-lg bg-success text-white align-self-center">
+        (-center)
+    </div>
+    <div class="col-lg bg-primary text-white align-self-end">
+        (-end)
+    </div>
+  </div>
+</div>
+  <br><br>
+  <img src="p.2.png" alt="" style="width: auto; height: 450px;">
+  <img src="p.3.png" alt="" style="width: auto; height: 450px;">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
